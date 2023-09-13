@@ -21,7 +21,7 @@ CREATE TABLE Dead_Characters (
 INSERT INTO Jobs (LastName, FirstName, Job, Began, Pay)
 VALUES 
 ('Griffin','Peter','Brewery Worker','2023-02-15','35.00'), 
-('Griffin','Lois','House Wife','1999-01-31','0.00'), 
+('Griffin','Lois','Piano Teacher','1999-01-31','10.00'), 
 ('Grffin','Chris','Paper Boy','2001-11-15','8.00'), 
 ('Griffin','Megatron','Freelancer','2001-01-01','20.00'), 
 ('Griffin','Brian','Failed Writer','1999-01-31','0.00'), 
