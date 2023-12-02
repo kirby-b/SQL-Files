@@ -27,7 +27,10 @@ UPDATE Jobs SET Job = 'Fisherman' WHERE idNum = '0';--Example
 --Thrift Shop Table:
 
 --Get Items of certain values/types
-SELECT IdNum, ItemName FROM Items WHERE quality = 'Good'
-SELECT IdNum, ItemName FROM Items WHERE quality = 'Poor'
-SELECT IdNum, ItemName FROM Items WHERE quality = 'New'
-SELECT IdNum, ItemName FROM Items WHERE quality = 'Broken'
+SELECT IdNum, ItemName FROM Items WHERE Quality = 'New'
+SELECT IdNum, ItemName FROM Items WHERE Quality = 'Good'
+SELECT IdNum, ItemName FROM Items WHERE Quality = 'Okay'
+SELECT IdNum, ItemName FROM Items WHERE Quality = 'Poor'
+SELECT IdNum, ItemName FROM Items WHERE Quality = 'Broken'
+SELECT IdNum, ItemName FROM Items WHERE Price <= '50.00'
+SELECT IdNum, ItemName FROM Items WHERE Price >= '50.00'
