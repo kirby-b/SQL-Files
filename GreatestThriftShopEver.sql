@@ -10,7 +10,7 @@ CREATE TABLE Items (
     Quantity Int(255),
 );
 
-INSERT INTO Items (IdNum, ItemName, Quality, Price)
+INSERT INTO Items (IdNum, ItemName, Quality, Price, Quantity)
 VALUES
 ('0', 'Candle','Good','5.60','20'), 
 ('1', 'Pewter Pitcher','Okay','15.07','3'), 
