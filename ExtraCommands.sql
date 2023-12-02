@@ -22,3 +22,9 @@ VALUES ('LastName', 'FirstName', 'End_Age', 'Death_Date', 'On_Screen');
 UPDATE Jobs SET chosenValue = 'newValue' WHERE idNum = 'idNum';
 UPDATE Dead_Characters SET chosenValue = 'newValue' WHERE idNum = 'idNum';
 UPDATE Jobs SET Job = 'Fisherman' WHERE idNum = '0';--Example
+
+
+--Thrift Shop Table:
+
+--Get Items of certain values/types
+
